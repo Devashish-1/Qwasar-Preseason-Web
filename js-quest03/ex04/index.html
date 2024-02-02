@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <div
+      id="my_box"
+      style="background-color: red; position: absolute; right: 70; bottom: 70; min-width: 100px; min-height: 100px"
+    ></div>
+
+    <script type="text/javascript">
+      // Access the div element by its ID
+      var myBox = document.getElementById("my_box");
+
+      // Example: Change the background color after 2 seconds
+      setTimeout(function () {
+        myBox.style.backgroundColor = "blue";
+      }, 2000);
+    </script>
+  </body>
+</html>
